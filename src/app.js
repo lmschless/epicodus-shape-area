@@ -12,6 +12,6 @@ export class Rectangle {
 	}
 }
 
-const test = new Rectangle(2, 4);
-console.log(test);
-console.log(test.findArea());
+// const test = new Rectangle(2, 4);
+// console.log(test);
+// console.log(test.findArea());

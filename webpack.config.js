@@ -18,8 +18,8 @@ module.exports = {
 		new UglifyJsPlugin({ sourceMap: true }),
 		new CleanWebpackPlugin(),
 		new HtmlWebpackPlugin({
-			title: 'shape-area',
-			template: './index.html',
+			title: 'app',
+			template: 'src/index.html',
 			inject: 'head'
 		}),
 		new webpack.ProvidePlugin({

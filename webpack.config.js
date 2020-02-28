@@ -6,7 +6,6 @@ var webpack = require('webpack');
 
 module.exports = {
 	entry: './src/app.js', // './src/index': './src/main.js'
-
 	output: {
 		filename: 'bundle.js',
 		path: path.resolve(__dirname, 'dist')
@@ -20,7 +19,7 @@ module.exports = {
 		new CleanWebpackPlugin(),
 		new HtmlWebpackPlugin({
 			title: 'shape-area',
-			template: './src/index.html',
+			template: './index.html',
 			inject: 'head'
 		}),
 		new webpack.ProvidePlugin({
